@@ -514,13 +514,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7022229d93fa17b408fcbc5123322f56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSpeed: 2.09
+  gameSpeed: 1.47
   PointsPerBlockDestroyed: 83
   scoreText: {fileID: 4381006465699558303}
   lifeText: {fileID: 1973000817}
   isAutoPlayEnabled: 0
   currentScore: 0
-  currentLives: 2
+  currentLives: 5
 --- !u!1001 &880304834856168355
 PrefabInstance:
   m_ObjectHideFlags: 0
