@@ -19,12 +19,30 @@ EditorBuildSettings:
     guid: 270908b256aa5a54c9520f2d081d663f
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
+    guid: 731b53af8b858844f9b513ac8ce12a64
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: d75888ac92a3a384bbf23048e9be7a52
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
     guid: 29b2dd7ca68da7f4ca930aeff87c4599
   - enabled: 1
+    path: Assets/Scenes/Level 6.unity
+    guid: 96235234b58db3a429f9d5b4475a9c87
+  - enabled: 1
     path: Assets/Scenes/Win.unity
-    guid: c53ea9a43208dd94bb8531c9b493e3ab
+    guid: 00a896335ec53a74e9bb25cb04a13880
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
+    guid: 69da07c2e22ac0e4c90e35cd574546b0
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/c53ea9a43208dd94bb8531c9b493e3ab
+    guid: c53ea9a43208dd94bb8531c9b493e3ab
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/fe444a5c2c64a1c42b4ab0f6068bd82f
+    guid: fe444a5c2c64a1c42b4ab0f6068bd82f
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/b2519fe45da337b468eabc995d5b3a02
     guid: b2519fe45da337b468eabc995d5b3a02
   - enabled: 0
     path: 

@@ -12,6 +12,7 @@ public class Paddle : MonoBehaviour
     //cached references
     Ball theBall;
     GameStatus theGameStatus;
+    MysteryBall theMysteryBall;
 
 
     // Start is called before the first frame update
@@ -19,7 +20,7 @@ public class Paddle : MonoBehaviour
     {
         theBall = FindObjectOfType<Ball>();
         theGameStatus = FindObjectOfType<GameStatus>();
-
+        theMysteryBall = FindObjectOfType<MysteryBall>();
 
     }
 

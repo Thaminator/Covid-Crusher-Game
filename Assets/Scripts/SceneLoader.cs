@@ -6,6 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    //cached reference
+    SaveGame theSaveGame;
+
+
+    int lastSave;
+
+    private void Start()
+    {
+        theSaveGame = FindObjectOfType<SaveGame>();
+    }
+
+
+
     public void LoadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -24,15 +37,23 @@ public class SceneLoader : MonoBehaviour
         FindObjectOfType<GameStatus>().RestartGame();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void LoadSavedScene()
     {
+        GetLastSave();
         
+        SceneManager.LoadScene(lastSave);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GetLastSave()
     {
         
+     lastSave = theSaveGame.savedSceneIndex;
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
+    
 }

@@ -12,11 +12,13 @@ public class LoseCollider : MonoBehaviour
 
     GameStatus theGameStatus;
     SceneLoader theSceneLoader;
+    SaveGame theSaveGame;
 
     private void Start()
     {
         theGameStatus = FindObjectOfType<GameStatus>();
         theSceneLoader = FindObjectOfType<SceneLoader>();
+        theSaveGame = FindObjectOfType<SaveGame>();
     }
 
 
@@ -24,6 +26,7 @@ public class LoseCollider : MonoBehaviour
     {
         if(theGameStatus.currentLives <= 1)
         {
+            theSaveGame.SaveTheGame();
             SceneManager.LoadScene("Game Over");
         }
 

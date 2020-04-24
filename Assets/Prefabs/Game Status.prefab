@@ -32,10 +32,10 @@ RectTransform:
   m_Father: {fileID: 7123996035648714791}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1136, y: 1051}
-  m_SizeDelta: {x: 299.5, y: -93.2}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -402, y: -15}
+  m_SizeDelta: {x: 299.5, y: -93.19995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &478293616
 CanvasRenderer:
@@ -73,8 +73,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294901774
-  m_fontColor: {r: 0.05724907, g: 0, b: 1, a: 1}
+    rgba: 4281606051
+  m_fontColor: {r: 0.6392157, g: 0.121568635, b: 0.20392159, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -188,10 +188,10 @@ RectTransform:
   m_Father: {fileID: 7123996035648714791}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1134, y: 1126}
-  m_SizeDelta: {x: 299.5, y: -93.2}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -404.00006, y: 41.000305}
+  m_SizeDelta: {x: 299.5, y: -93.19995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1599661972
 CanvasRenderer:
@@ -229,8 +229,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4278683136
+  m_fontColor: {r: 0, g: 0.5283019, b: 0.028131612, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -248,8 +248,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -344,10 +344,10 @@ RectTransform:
   m_Father: {fileID: 7123996035648714791}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1306, y: 1051}
-  m_SizeDelta: {x: 299.5, y: -93.2}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -269, y: -18}
+  m_SizeDelta: {x: 299.5, y: -93.19995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1973000818
 CanvasRenderer:
@@ -385,8 +385,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294901774
-  m_fontColor: {r: 0.05724907, g: 0, b: 1, a: 1}
+    rgba: 4281606051
+  m_fontColor: {r: 0.6392157, g: 0.121568635, b: 0.20392159, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -404,8 +404,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -530,13 +530,38 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 466489562203912644, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
         type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 466489562203912644, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 466489562203912644, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 466489562203912644, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 466489562203912644, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1314
+      value: -265
       objectReference: {fileID: 0}
     - target: {fileID: 466489562203912644, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1126
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 466489562203912644, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -93.19995
       objectReference: {fileID: 0}
     - target: {fileID: 3529430942401632316, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
         type: 3}
@@ -550,6 +575,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7742425851257655457, guid: 872d8cb296671c84c911c62b4a0c91bd,
         type: 2}
+    - target: {fileID: 3529430942401632316, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278683136
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529430942401632316, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529430942401632316, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5283019
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529430942401632316, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.028131612
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529430942401632316, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529430942401632316, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7992477784990077824, guid: 2c80ac25d2c9b1b4a9e0d8cc01c1d9b3,
         type: 3}
       propertyPath: m_Name
