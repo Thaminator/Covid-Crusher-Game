@@ -28,7 +28,6 @@ public class level : MonoBehaviour
         breakableBlocks--;
         if (breakableBlocks <= 0)
         {
-            theGameStatus.GainLife();
             sceneloader.LoadNextScene();
         }
     }

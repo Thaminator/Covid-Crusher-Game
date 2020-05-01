@@ -26,7 +26,6 @@ public class LoseCollider : MonoBehaviour
     {
         if(theGameStatus.currentLives <= 1)
         {
-            theSaveGame.SaveTheGame();
             SceneManager.LoadScene("Game Over");
         }
 

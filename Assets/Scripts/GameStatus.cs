@@ -7,15 +7,15 @@ public class GameStatus : MonoBehaviour
 {
 
     //config parameters
-    [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 1f;
+    [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 1.8f;
     [SerializeField] int PointsPerBlockDestroyed = 83;
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] TextMeshProUGUI lifeText;
-    [SerializeField] bool isAutoPlayEnabled;
+    [SerializeField] bool isAutoPlayEnabled=false;
 
     //state variables 
     [SerializeField] int currentScore = 0;
-    public int currentLives = 5;
+    public int currentLives = 10;
 
 
     private void Awake()
@@ -58,6 +58,12 @@ public class GameStatus : MonoBehaviour
         lifeText.text = currentLives.ToString();
     }
 
+    public void ResetLife()
+    {
+        currentLives = 10;
+        lifeText.text = currentLives.ToString();
+    }
+
     public void GainLife()
     {
         currentLives = currentLives+1;
@@ -72,6 +78,26 @@ public class GameStatus : MonoBehaviour
     public bool IsAutoPlayEnabled()
     {
         return isAutoPlayEnabled;
+    }
+
+    public void EnableAutoPlay()
+    {
+        isAutoPlayEnabled=true;
+    }
+
+    public void DisableAutoPlay()
+    {
+        isAutoPlayEnabled = false;
+    }
+
+    public void NormalGameSpeed()
+    {
+        gameSpeed = 1.8f;
+    }
+
+    public void FastGameSpeed()
+    {
+        gameSpeed = 3f;
     }
 
 }

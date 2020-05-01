@@ -8,6 +8,7 @@ public class SceneLoader : MonoBehaviour
 {
     //cached reference
     SaveGame theSaveGame;
+    GameStatus theGameStatus;
 
 
     int lastSave;
@@ -15,6 +16,7 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         theSaveGame = FindObjectOfType<SaveGame>();
+        theGameStatus = FindObjectOfType<GameStatus>();
     }
 
 
@@ -25,10 +27,21 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void LoadMLScene()
+    {
+        SceneManager.LoadScene("AutoLevel");
+    }
+
     public void LoadCurrentScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void LoadFirstScene()
+    {
+        theGameStatus.ResetLife();
+        SceneManager.LoadScene(1);
     }
 
     public void LoadStartScene()
